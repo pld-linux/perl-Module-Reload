@@ -3,7 +3,7 @@ Summary:	Module-Reload perl module
 Summary(pl):	Modu³ perla Module-Reload
 Name:		perl-Module-Reload
 Version:	1.07
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
