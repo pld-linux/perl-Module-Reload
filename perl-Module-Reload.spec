@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Module
 %define	pnam	Reload
-%include	/usr/lib/rpm/macros.perl
 Summary:	Module-Reload perl module
 Summary(pl):	Modu³ perla Module-Reload
 Name:		perl-Module-Reload
 Version:	1.07
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Module-Reload - ³aduje ponownie pliki w INC, je¶li zosta³y
 zaktualizowane na dysku.
 
 %prep
-%setup -q -n Module-Reload-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
