@@ -9,7 +9,7 @@ Summary:	Module::Reload perl module
 Summary(pl):	Modu³ perla Module::Reload
 Name:		perl-Module-Reload
 Version:	1.07
-Release:	9
+Release:	10
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
