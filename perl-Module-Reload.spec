@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Module
-%define	pnam	Reload
+%define		pdir	Module
+%define		pnam	Reload
 Summary:	Module::Reload perl module
 Summary(pl):	Modu³ perla Module::Reload
 Name:		perl-Module-Reload
