@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Module
 %define	pnam	Reload
-Summary:	Module-Reload perl module
-Summary(pl):	Modu³ perla Module-Reload
+Summary:	Module::Reload perl module
+Summary(pl):	Modu³ perla Module::Reload
 Name:		perl-Module-Reload
 Version:	1.07
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Module-Reload - reloads INC files when updated on disk.
+Module::Reload - reloads INC files when updated on disk.
 
 %description -l pl
-Module-Reload - ³aduje ponownie pliki w INC, je¶li zosta³y
+Module::Reload - ³aduje ponownie pliki w INC, je¶li zosta³y
 zaktualizowane na dysku.
 
 %prep
