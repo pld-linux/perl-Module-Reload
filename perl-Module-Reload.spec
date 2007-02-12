@@ -6,7 +6,7 @@
 %define		pdir	Module
 %define		pnam	Reload
 Summary:	Module::Reload perl module
-Summary(pl):	Modu≥ perla Module::Reload
+Summary(pl.UTF-8):   Modu≈Ç perla Module::Reload
 Name:		perl-Module-Reload
 Version:	1.07
 Release:	10
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Module::Reload - reloads INC files when updated on disk.
 
-%description -l pl
-Module::Reload - ≥aduje ponownie pliki w INC, je∂li zosta≥y
+%description -l pl.UTF-8
+Module::Reload - ≈Çaduje ponownie pliki w INC, je≈õli zosta≈Çy
 zaktualizowane na dysku.
 
 %prep
