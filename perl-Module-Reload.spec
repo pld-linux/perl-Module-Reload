@@ -6,7 +6,7 @@
 %define		pdir	Module
 %define		pnam	Reload
 Summary:	Module::Reload perl module
-Summary(pl.UTF-8):   Moduł perla Module::Reload
+Summary(pl.UTF-8):	Moduł perla Module::Reload
 Name:		perl-Module-Reload
 Version:	1.07
 Release:	10
