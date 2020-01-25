@@ -4,7 +4,6 @@
 
 %define		pdir	Module
 %define		pnam	Reload
-%include	/usr/lib/rpm/macros.perl
 Summary:	Module::Reload perl module
 Summary(pl.UTF-8):	Moduł perla Module::Reload
 Name:		perl-Module-Reload
